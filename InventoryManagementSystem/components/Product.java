@@ -7,13 +7,11 @@ public class Product {
 
     public Product() {}
 
-    // SETTERS
     public void setName(String name) { this.name = name; }
     public void setPrice(double price) { this.price = price; }
     public void setQuantity(int quantity) { this.quantity = quantity; }
     public void setCategory(String category) { this.category = category; }
 
-    // GETTERS
     public String getName() { return name; }
     public double getPrice() { return price; }
     public int getQuantity() { return quantity; }
@@ -25,5 +23,6 @@ public class Product {
         System.out.println("Quantity: " + quantity);
     }
 }
+
 
 

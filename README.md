@@ -10,3 +10,16 @@ This Java console-based system helps Ryzentech Shop organize and track its compu
 - Sample output
 - Author and Acknowledgement
 
+## OOP Concepts applied
+
+
+## Program Structure
+
+
+## How to Run the Program
+
+
+## ample output
+
+
+## Author and Acknowledgement 

@@ -3,6 +3,7 @@ package src;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
 import Component.*;
 
 public class Main {
@@ -18,17 +19,14 @@ public class Main {
         ArrayList<Electronics> electronicsList = new ArrayList<>();
         ArrayList<Accessories> accessoriesList = new ArrayList<>();
         int choice = 0;
-    
     System.out.println();
-    System.out.println("█╗   █╗█████╗█╗    █████╗█████╗█╗  █╗█████╗");
-    System.out.println("█║   █║█╔═══╝█║    █╔═══╝█╔══█║██╗██║█╔═══╝");
-    System.out.println("█║ █╗█║████╗ █║    █║    █║  █║█╔█╔█║████╗ ");
-    System.out.println("█║█╔█╗█║█╔══╝█║    █║    █║  █║█║╚╝█║█╔══╝ ");
-    System.out.println("██╔╝╚██║█████╗█████╗█████╗█████║█║  █║█████╗");
-    System.out.println("╚═╝  ╚═╝╚════╝╚════╝╚════╝╚════╝╚╝  ╚╝╚════╝");
-    System.out.println();
-    System.out.println("                   TO                 ");
-    System.out.println("    ▓▓▓ RYZENTECH INVENTORY SYSTEM ▓▓▓  ");
+    System.out.println("░▒▓█████████████████████████████████████▓▒░");
+    System.out.println("█                                         █");
+    System.out.println("█           W E L C O M E                 █");
+    System.out.println("█                TO                       █");
+    System.out.println("█     RYZENTECH INVENTORY SYSTEM          █");
+    System.out.println("█                                         █");
+    System.out.println("░▒▓█████████████████████████████████████▓▒░");
     System.out.println();
     System.out.println("\nPress Enter to return to main menu...");
     sc.nextLine(); 

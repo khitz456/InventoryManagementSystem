@@ -19,7 +19,7 @@ This Java console-based system helps Ryzentech Shop organize and track its compu
 ## How to Run the Program
 
 
-## ample output
+## Sample output
 
 
 ## Author and Acknowledgement 

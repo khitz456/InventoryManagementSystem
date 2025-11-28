@@ -1,5 +1,4 @@
-(Accesories)
- package Component;
+package Component;
 
 public class Accessories extends Product {
     private String type;
@@ -17,4 +16,5 @@ public class Accessories extends Product {
         super.display();
     }
 }    
+
 

@@ -7,7 +7,6 @@ public class Electronics extends Product {
 
     public void setBrand(String brand) { this.brand = brand; }
 
-    // GETTER
     public String getBrand() { return brand; }
 
     @Override
@@ -16,3 +15,4 @@ public class Electronics extends Product {
         System.out.println("Brand: " + brand);
         super.displayInfo();
     }
+

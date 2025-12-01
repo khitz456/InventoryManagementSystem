@@ -78,6 +78,38 @@ Benefit: Makes the code clean, readable, and easier to maintain.
 
 ## Program Structure
 
+The Main class acts as the central controller of the Ryzentech Inventory System.
+It serves as the entry point of the program and handles all user interactions through a text-based menu.
+
+Roles of the Main Class:
+
+1. Displays the Main Menu
+    - Shows available options such as adding products, displaying products, editing quantities, and exiting.
+
+Handles User Input
+Collects user choices and product information using a Scanner.
+
+Coordinates Program Flow
+Uses loops and switch cases to control navigation and perform the selected operations.
+
+Manages Product Collections
+Stores two lists:
+
+ArrayList<Electronics> electronicsList
+
+ArrayList<Accessories> accessoriesList
+
+Creates and Modifies Objects
+
+Creates new Electronics or Accessories objects based on user input.
+
+Updates product quantities during editing.
+
+Displays Inventory
+Prints formatted tables showing saved electronics and accessories.
+
+Validates Input
+Uses try–catch to handle invalid or non-numeric inputs safely.
 
 
 

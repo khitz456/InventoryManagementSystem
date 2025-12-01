@@ -109,10 +109,18 @@ It serves as the entry point of the program and handles all user interactions th
 
 ### List of Relationships:
 
+1. Main → Electronics
+   - Creates electronics objects
+   - Stores them in an ArrayList
+   - Displays and edits them
 
-           
+2. Main → Accessories
+   - Creates accessory objects
+   - Stores them in an ArrayList
+   - Displays and edits them
 
-
+3. Electronics & Accessories → Product
+   - Both are assumed to inherit common product attributes (like name, price, quantity, category)
 
 ## How to Run the Program
 

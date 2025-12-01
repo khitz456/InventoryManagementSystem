@@ -23,6 +23,7 @@ How it was applied:
 Encapsulation is the concept of bundling data (variables) and methods (functions) into a single unit (a class) and protecting them from unauthorized access.
 
 The classes Electronics and Accessories have private attributes such as:
+
     - name
     - price
     - quantity

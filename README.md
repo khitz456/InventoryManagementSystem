@@ -108,8 +108,8 @@ Roles of the Main Class:
      - Uses try–catch to handle invalid or non-numeric inputs safely.
 
 Text Based Diagram:
-
-                            +------------------+
+                       l
+                        +------------------+
                         |     Product      |  <-- (Assumed parent)
                         |------------------|
                         | - name           |
@@ -130,8 +130,8 @@ Text Based Diagram:
 | + setBrand()         |                      | + setType()           |
 | + other setters/getters|                    | + other setters/getters|
 +----------------------+                      +-----------------------+
-
-                 (Creates, Stores, Updates)
+l
+              (Creates, Stores, Updates)
                            ↑
                            |
                   +---------------------+
@@ -145,6 +145,7 @@ Text Based Diagram:
                   | + menu operations   |
                   +---------------------+
 
+           
 
 
 

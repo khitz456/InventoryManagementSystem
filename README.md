@@ -12,6 +12,22 @@ This Java console-based system helps Ryzentech Shop organize and track its compu
 
 ## OOP Concepts applied
 
+This Inventory System applies several OOP principles to make the program modular, organized, and easier to maintain. The main concepts used are Encapsulation, Inheritance, Polymorphism, and Abstraction.
+
+1. Encapsulation 
+
+Encapsulation is the concept of bundling data variables and methods functions into a single unit (a class) and protecting them from unauthorized access.
+
+How it was applied:
+
+Encapsulation is the concept of bundling data (variables) and methods (functions) into a single unit (a class) and protecting them from unauthorized access.
+
+The classes Electronics and Accessories have private attributes such as:
+    - name
+    - price
+    - quantity
+    - Encapsulation
+    - (brand/type depending on the category)
 
 ## Program Structure
 

@@ -81,7 +81,7 @@ Benefit: Makes the code clean, readable, and easier to maintain.
 The Main class acts as the central controller of the Ryzentech Inventory System.
 It serves as the entry point of the program and handles all user interactions through a text-based menu.
 
-Roles of the Main Class:
+### Roles of the Main Class:
 
 1. Displays the Main Menu
     - Shows available options such as adding products, displaying products, editing quantities, and exiting.
@@ -107,43 +107,8 @@ Roles of the Main Class:
 7. Validates Input
      - Uses try–catch to handle invalid or non-numeric inputs safely.
 
-Text Based Diagram:
-                       l
-                        +------------------+
-                        |     Product      |  <-- (Assumed parent)
-                        |------------------|
-                        | - name           |
-                        | - price          |
-                        | - quantity       |
-                        | - category       |
-                        |------------------|
-                        | + getters/setters|
-                        +--------^---------+
-                                 |
-           ------------------------------------------------
-           |                                              |
-+----------------------+                      +-----------------------+
-|     Electronics      |                      |     Accessories       |
-|----------------------|                      |------------------------|
-| - brand              |                      | - type                |
-|----------------------|                      |------------------------|
-| + setBrand()         |                      | + setType()           |
-| + other setters/getters|                    | + other setters/getters|
-+----------------------+                      +-----------------------+
-l
-              (Creates, Stores, Updates)
-                           ↑
-                           |
-                  +---------------------+
-                  |        Main         |
-                  |---------------------|
-                  | - electronicsList   |
-                  | - accessoriesList   |
-                  | - clearScreen()     |
-                  |---------------------|
-                  | + main()            |
-                  | + menu operations   |
-                  +---------------------+
+### List of Relationships:
+
 
            
 

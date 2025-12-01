@@ -24,11 +24,11 @@ Encapsulation is the concept of bundling data variables and methods functions in
 
 The classes Electronics and Accessories have private attributes such as:
 
-    - name
-    - price
-    - quantity
-    - Encapsulation
-    - (brand/type depending on the category)
+- name
+- price
+- quantity
+- Encapsulation
+- (brand/type depending on the category)
 
 Benefit: Prevents accidental modification of internal data and keeps the program secure and stable.
 
@@ -38,8 +38,8 @@ Inheritance allows a class to acquire the properties and behaviors of another cl
 
 How it was applied:
 
-    - The classes Electronics and Accessories most likely inherit from a base class, such as Product or a shared parent.
-    - Both share common attributes (name, price, quantity, category), which means they are structured using inheritance.
+- The classes Electronics and Accessories most likely inherit from a base class, such as Product or a shared parent.
+- Both share common attributes (name, price, quantity, category), which means they are structured using inheritance.
 
 Benefit: Avoids code duplication and makes the system easier to expand when adding new product types.
 
@@ -49,12 +49,12 @@ Polymorphism allows objects to be treated as instances of their parent class rat
 
 How it was applied:
 
-    - Although the main program stores them separately electronicsList, accessoriesList, each subclass Electronics, Accessories overrides methods from the parent c
+- Although the main program stores them separately electronicsList, accessoriesList, each subclass Electronics, Accessories overrides methods from the parent c
 
 For example, both may override:
 
-    - setCategory()
-    - or specific methods to display product details.
+- setCategory()
+- or specific methods to display product details.
 
 If the system were later expanded, both product types could be stored in a single ArrayList<Product> and processed using polymorphism.
 
@@ -66,13 +66,13 @@ Abstraction focuses on hiding complexity and showing only essential features.
 
 How it was applied:
 
-    - The product classes hide internal details such as how the category, type, brand, or quantity are stored.
-    - The main program interacts only with simple methods like:
+- The product classes hide internal details such as how the category, type, brand, or quantity are stored.
+- The main program interacts only with simple methods like:
            
-           - setName()
-           - setBrand()
-           - setType()
-           - setQuantity()
+   - setName()
+   - setBrand()
+   - setType()
+   - setQuantity()
 
 Benefit: Makes the code clean, readable, and easier to maintain.
 
@@ -86,30 +86,65 @@ Roles of the Main Class:
 1. Displays the Main Menu
     - Shows available options such as adding products, displaying products, editing quantities, and exiting.
 
-Handles User Input
-Collects user choices and product information using a Scanner.
+2. Handles User Input
+    - Collects user choices and product information using a Scanner.
 
-Coordinates Program Flow
-Uses loops and switch cases to control navigation and perform the selected operations.
+3. Coordinates Program Flow
+    - Uses loops and switch cases to control navigation and perform the selected operations.
 
-Manages Product Collections
-Stores two lists:
+4. Manages Product Collections
+    - Stores two lists:
+        1. ArrayList<Electronics> electronicsList
+        2. ArrayList<Accessories> accessoriesList
 
-ArrayList<Electronics> electronicsList
+5. Creates and Modifies Objects
+     - Creates new Electronics or Accessories objects based on user input.
+     - Updates product quantities during editing.
 
-ArrayList<Accessories> accessoriesList
+6. Displays Inventory
+     - Prints formatted tables showing saved electronics and accessories.
 
-Creates and Modifies Objects
+7. Validates Input
+     - Uses try–catch to handle invalid or non-numeric inputs safely.
 
-Creates new Electronics or Accessories objects based on user input.
+Text Based Diagram:
 
-Updates product quantities during editing.
+                            +------------------+
+                        |     Product      |  <-- (Assumed parent)
+                        |------------------|
+                        | - name           |
+                        | - price          |
+                        | - quantity       |
+                        | - category       |
+                        |------------------|
+                        | + getters/setters|
+                        +--------^---------+
+                                 |
+           ------------------------------------------------
+           |                                              |
++----------------------+                      +-----------------------+
+|     Electronics      |                      |     Accessories       |
+|----------------------|                      |------------------------|
+| - brand              |                      | - type                |
+|----------------------|                      |------------------------|
+| + setBrand()         |                      | + setType()           |
+| + other setters/getters|                    | + other setters/getters|
++----------------------+                      +-----------------------+
 
-Displays Inventory
-Prints formatted tables showing saved electronics and accessories.
+                 (Creates, Stores, Updates)
+                           ↑
+                           |
+                  +---------------------+
+                  |        Main         |
+                  |---------------------|
+                  | - electronicsList   |
+                  | - accessoriesList   |
+                  | - clearScreen()     |
+                  |---------------------|
+                  | + main()            |
+                  | + menu operations   |
+                  +---------------------+
 
-Validates Input
-Uses try–catch to handle invalid or non-numeric inputs safely.
 
 
 

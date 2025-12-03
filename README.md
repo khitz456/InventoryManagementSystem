@@ -175,11 +175,17 @@ To run the program, you must use the fully qualified name (PackageName.ClassName
 ## FUTURE ENHANCEMENTS
 
 1.Implement Abstract Inheritance and Polymorphism
+
 2.Modularize the Application Logic
+
 3.Introduce Unique Persistent Identifiers
+
 4.Implement Data Persistence Functionality
+
 5.Enhance Input and Business Logic Validation
+
 6.Develop Comprehensive Management Features
+
 7.Integrate Operational Alerts and Sorting
 
 

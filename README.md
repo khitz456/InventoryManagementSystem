@@ -144,31 +144,31 @@ To run the program, you must use the fully qualified name (PackageName.ClassName
 ## Sample output
 
   
-          ===========================================
-          █                                         █
-          █            W E L C O M E                █
-          █                TO                       █
-          █     RYZENTECH INVENTORY SYSTEM          █
-          █                                         █
-          ===========================================
+                                               ===========================================
+                                               █                                         █
+                                               █            W E L C O M E                █
+                                               █                TO                       █
+                                               █     RYZENTECH INVENTORY SYSTEM          █
+                                               █                                         █
+                                               ===========================================
 
 
-             Press Enter to return to main menu...
+                                                  Press Enter to return to main menu...
      
      
 
-     =======================================================
-      ____  _  _ ____  ____  _  _ _____  ____   ___  _   _ 
-    |  _ \| || |_  / | ___|| \| |_   _|| ___| / __|| |_| |
-    | |_) | \/ |/ /  | _|  | .` | | |  | _|  | |__ |  _  |
-    |_| \_|\__//___|_|_____|_|\_| |_|  |____| \___||_| |_|
+                                         =======================================================
+                                           ____  _  _ ____  ____  _  _ _____  ____   ___  _   _ 
+                                        |  _ \| || |_  / | ___|| \| |_   _|| ___| / __|| |_| |
+                                        | |_) | \/ |/ /  | _|  | .` | | |  | _|  | |__ |  _  |
+                                        |_| \_|\__//___|_|_____|_|\_| |_|  |____| \___||_| |_|
 
-    =======================================================
-     1. Add Product
-     2. Display Products
-     3. Edit Product
-     4. Exit
-     Enter choice:
+                                         =======================================================
+                                         1. Add Product
+                                         2. Display Products
+                                         3. Edit Product
+                                         4. Exit
+                                         Enter choice:
 
 
 
@@ -209,5 +209,6 @@ This project effectively demonstrates key Object-Oriented Programming (OOP) prin
 For any inquiries, suggestions, or constructive feedback regarding the project, please utilize the appropriate communication channels: either open a detailed issue directly on the project's GitHub repository to document the concern publicly, or contact the author privately through their profile on GitHub.
 
 
-                     Thank you for using Ryzentech Inventory!
-                                  "Happy Friends"  
+                                                    Thank you for using Ryzentech Inventory!
+                                                                "Happy Friends"  
+ 

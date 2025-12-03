@@ -210,4 +210,4 @@ For any inquiries, suggestions, or constructive feedback regarding the project, 
 
 
                      Thank you for using Ryzentech Inventory!
-                                  "Hppy Friends"  
+                                  "Happy Friends"  

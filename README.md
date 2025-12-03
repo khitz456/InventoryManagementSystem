@@ -199,4 +199,15 @@ Github: https://github.com/khitz456/InventoryManagementSystem/edit/main/README.m
 
 Respiratory: https://github.com/khitz456/InventoryManagementSystem
 
+
 This project effectively demonstrates key Object-Oriented Programming (OOP) principles in Java by implementing an inventory management system. It showcases encapsulation through the use of getters and setters to protect internal object states, applies **inheritance* by separating products into distinct yet related categories (Electronics and Accessories), utilizes polymorphism when objects are handled generically within list structures (if implemented), and incorporates abstraction by defining clear, high-level interfaces for user interaction. Crucially, the system includes fundamental exception handling to manage and recover gracefully from invalid user input, thereby ensuring a functional and relatively robust application environment.
+
+
+## Contact
+
+
+For any inquiries, suggestions, or constructive feedback regarding the project, please utilize the appropriate communication channels: either open a detailed issue directly on the project's GitHub repository to document the concern publicly, or contact the author privately through their profile on GitHub.
+
+
+                     Thank you for using Ryzentech Inventory!
+                                  "Hppy Friends"  

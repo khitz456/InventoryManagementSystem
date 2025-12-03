@@ -49,7 +49,7 @@ Polymorphism allows objects to be treated as instances of their parent class rat
 
 How it was applied:
 
-- Although the main program stores them separately electronicsList, accessoriesList, each subclass Electronics, Accessories overrides methods from the parent c
+- Although the main program stores them separately electronicsList, accessoriesList, each subclass Electronics, Accessories overrides methods from the parent class
 
 For example, both may override:
 
@@ -60,21 +60,6 @@ If the system were later expanded, both product types could be stored in a singl
 
 Benefit: Makes the system flexible, allowing multiple object types to be used through a common interface.
 
-4. Abstraction
-
-Abstraction focuses on hiding complexity and showing only essential features.
-
-How it was applied:
-
-- The product classes hide internal details such as how the category, type, brand, or quantity are stored.
-- The main program interacts only with simple methods like:
-           
-   - setName()
-   - setBrand()
-   - setType()
-   - setQuantity()
-
-Benefit: Makes the code clean, readable, and easier to maintain.
 
 ## Program Structure
 

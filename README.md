@@ -154,4 +154,18 @@ To run the program, you must use the fully qualified name (PackageName.ClassName
 
             Press Enter to return to main menu...
 
+Main Menu===============================================
+ ____  _  _ ____  ____  _  _ _____  ____   ___  _   _ 
+|  _ \| || |_  / | ___|| \| |_   _|| ___| / __|| |_| |
+| |_) | \/ |/ /  | _|  | .` | | |  | _|  | |__ |  _  |
+|_| \_|\__//___|_|_____|_|\_| |_|  |____| \___||_| |_|
+
+=======================================================
+1. Add Product
+2. Display Products
+3. Edit Product
+4. Exit
+Enter choice:
+
+
 ## Author and Acknowledgement 

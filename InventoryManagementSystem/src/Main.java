@@ -6,6 +6,8 @@ import Component.*;
 
 public class Main {
 
+    public static final String CYAN_BOLD = "\u001B[1;36m";
+    public static final String RESET = "\u001B[0m";
     public static void clearScreen() {
         System.out.print("\033[H\033[2J"); 
         System.out.flush();            
@@ -19,25 +21,26 @@ public class Main {
         ArrayList<Accessories> accessoriesList = new ArrayList<>();
         int choice = 0;
     System.out.println();
-    System.out.println("░▒▓█████████████████████████████████████▓▒░");
+    System.out.println(CYAN_BOLD +"===========================================");
     System.out.println("█                                         █");
-    System.out.println("█           W E L C O M E                 █");
+    System.out.println("█            W E L C O M E                █");
     System.out.println("█                TO                       █");
     System.out.println("█     RYZENTECH INVENTORY SYSTEM          █");
     System.out.println("█                                         █");
-    System.out.println("░▒▓█████████████████████████████████████▓▒░");
+    System.out.println("===========================================" + RESET);
     System.out.println();
-    System.out.println("\nPress Enter to return to main menu...");
+    System.out.println("\nPress Enter to proceed to main menu...");
     sc.nextLine(); 
-        do {
+        do {    
             clearScreen();
 
-    System.out.println("=======================================================");
+    System.out.println(CYAN_BOLD +"=======================================================");
     System.out.println(" ____  _  _ ____  ____  _  _ _____  ____   ___  _   _ ");
     System.out.println("|  _ \\| || |_  / | ___|| \\| |_   _|| ___| / __|| |_| |");
     System.out.println("| |_) | \\/ |/ /  | _|  | .` | | |  | _|  | |__ |  _  |");
     System.out.println("|_| \\_|\\__//___|_|_____|_|\\_| |_|  |____| \\___||_| |_|");
-    System.out.println("=======================================================");
+    System.out.println();
+    System.out.println("=======================================================" + RESET);
             System.out.println("1. Add Product");
             System.out.println("2. Display Products");
             System.out.println("3. Edit Product");
@@ -133,10 +136,10 @@ public class Main {
                     sc.nextLine();
 
                     if (editCat2 == 1 && !electronicsList.isEmpty()) {
-                        System.out.println("\n====== Electronics List ======");
+                        System.out.println("\n========== Electronics List ==========");
                         for (int i = 0; i < electronicsList.size(); i++) {
                             Electronics e = electronicsList.get(i);
-                            System.out.println((i + 1) + ". " + e.getName() + " (" + e.getBrand() + 
+                            System.out.println("ID: " + (i + 1) + " " + e.getName() + " (" + e.getBrand() + 
                                             ") Price: " + e.getPrice() + 
                                             " | Qty: " + e.getQuantity());
                         }
@@ -160,10 +163,10 @@ public class Main {
 
                     } else if (editCat2 == 2 && !accessoriesList.isEmpty()) {
 
-                        System.out.println("\n------ Accessories List ------");
+                        System.out.println("\n---------- Accessories List ----------");
                         for (int i = 0; i < accessoriesList.size(); i++) {
                             Accessories a = accessoriesList.get(i);
-                            System.out.println((i + 1) + ". " + a.getName() + " (" + a.getType() + 
+                            System.out.println("ID: " + (i + 1) + " " + a.getName() + " (" + a.getType() + 
                                             ") Price: " + a.getPrice() + 
                                             " | Qty: " + a.getQuantity());
                         }

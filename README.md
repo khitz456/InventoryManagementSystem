@@ -192,3 +192,11 @@ To run the program, you must use the fully qualified name (PackageName.ClassName
 
 
 ## Author and Acknowledgement 
+
+Author: Comia Juriel
+
+Github: https://github.com/khitz456/InventoryManagementSystem/edit/main/README.md
+
+Respiratory: https://github.com/khitz456/InventoryManagementSystem
+
+This project effectively demonstrates key Object-Oriented Programming (OOP) principles in Java by implementing an inventory management system. It showcases encapsulation through the use of getters and setters to protect internal object states, applies **inheritance* by separating products into distinct yet related categories (Electronics and Accessories), utilizes polymorphism when objects are handled generically within list structures (if implemented), and incorporates abstraction by defining clear, high-level interfaces for user interaction. Crucially, the system includes fundamental exception handling to manage and recover gracefully from invalid user input, thereby ensuring a functional and relatively robust application environment.

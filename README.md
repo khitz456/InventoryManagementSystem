@@ -142,6 +142,15 @@ Step 5: Run the Program
 To run the program, you must use the fully qualified name (PackageName.ClassName).
 
 ## Sample output
+===========================================
+█                                         █
+█            W E L C O M E                █
+█                TO                       █
+█     RYZENTECH INVENTORY SYSTEM          █
+█                                         █
+===========================================
 
+
+Press Enter to return to main menu...****
 
 ## Author and Acknowledgement 

@@ -1,6 +1,6 @@
 # Ryzentech Inventory  Management System
 
-The RYZENTECH Inventory System is a console-based inventory management program designed to help users organize and manage electronic products and accessories efficiently. It allows users to add items, view complete product lists, and update product quantities through a clean, menu-driven interface.
+The RYZENTECH Inventory System is a java console-based inventory management program designed to help users organize and manage electronic products and accessories efficiently. It allows users to add items, view complete product lists, and update product quantities through a clean, menu-driven interface.
 
 ## Table of Contents
 

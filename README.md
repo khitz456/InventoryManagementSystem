@@ -125,60 +125,21 @@ It serves as the entry point of the program and handles all user interactions th
 ## How to Run the Program
 
 Step 1: Create the Directory Structure
-Create a main project folder (e.g., InventorySystem). Inside that folder, create two subfolders named exactly source and Component.
-
-To compile and run this Java program successfully, you must replicate the package structure defined in the code. Because the code declares package source; and import Component.*;, the files cannot just sit in one folder; they must be in specific subdirectories.
-
-Since you provided Main.java but used classes (Electronics, Accessories) that are missing from your snippet, I have provided Step 2 to create those missing files so the code actually compiles.
-
-Step 1: Create the Directory Structure
-Create a main project folder (e.g., InventorySystem). Inside that folder, create two subfolders named exactly source and Component.
-
-The structure must look like this:
-
-Plaintext
-
-InventorySystem/   <-- Open your terminal/cmd here
-├── source/
-│   └── Main.java
-└── Component/
-    ├── Electronics.java
-    └── Accessories.java
+- Create a main project folder (e.g., InventorySystem). Inside that folder, create two subfolders named exactly source and Component.
 
 Step 2: Create the Files
-1.Main.java: Save the code you provided in the user prompt into the source folder.
-2.Dependencies: Since Main.java imports Component.* and uses getters/setters (like setBrand, getType), you must create these files in the Component folder for the program to work.
+- Main.java: Save the code you provided in the user prompt into the source folder.
+- Dependencies: Since Main.java imports Component.* and uses getters/setters (like setBrand, getType), you must create these files in the Component folder for the program to work.
 
-To compile and run this Java program successfully, you must replicate the package structure defined in the code. Because the code declares package source; and import Component.*;, the files cannot just sit in one folder; they must be in specific subdirectories.
-
-Since you provided Main.java but used classes (Electronics, Accessories) that are missing from your snippet, I have provided Step 2 to create those missing files so the code actually compiles.
-
-Step 1: Create the Directory Structure
-Create a main project folder (e.g., InventorySystem). Inside that folder, create two subfolders named exactly source and Component.
-
-The structure must look like this:
-
-Plaintext
-
-InventorySystem/   <-- Open your terminal/cmd here
-├── source/
-│   └── Main.java
-└── Component/
-    ├── Electronics.java
-    └── Accessories.java
-Step 2: Create the Files
-Main.java: Save the code you provided in the user prompt into the source folder.
-
-Dependencies: Since Main.java imports Component.* and uses getters/setters (like setBrand, getType), you must create these files in the Component folder for the program to work.
-
-File: Component/Electronics.java
-
-
-}
 Step 3: Open Terminal / Command Prompt
-Open your command prompt (Windows) or Terminal (Mac/Linux).
+- Open your command prompt (Windows) or Terminal (Mac/Linux).
+- Navigate to the root folder (InventorySystem).
 
-Navigate to the root folder (InventorySystem).
+Step 4: Compile the Code
+- Run the following command to compile the Main file and its dependencies:
+
+Step 5: Run the Program
+To run the program, you must use the fully qualified name (PackageName.ClassName).
 
 ## Sample output
 

@@ -143,6 +143,20 @@ To run the program, you must use the fully qualified name (PackageName.ClassName
 
 ## Sample output
 
+  
+          ===========================================
+          █                                         █
+          █            W E L C O M E                █
+          █                TO                       █
+          █     RYZENTECH INVENTORY SYSTEM          █
+          █                                         █
+          ===========================================
+
+
+             Press Enter to return to main menu...
+     
+     
+
      =======================================================
       ____  _  _ ____  ____  _  _ _____  ____   ___  _   _ 
     |  _ \| || |_  / | ___|| \| |_   _|| ___| / __|| |_| |
@@ -158,16 +172,17 @@ To run the program, you must use the fully qualified name (PackageName.ClassName
 
 
 
-          ===========================================
-          █                                         █
-          █            W E L C O M E                █
-          █                TO                       █
-          █     RYZENTECH INVENTORY SYSTEM          █
-          █                                         █
-          ===========================================
+## FUTURE ENHANCEMENTS
+
+1.Implement Abstract Inheritance and Polymorphism
+2.Modularize the Application Logic
+3.Introduce Unique Persistent Identifiers
+4.Implement Data Persistence Functionality
+5.Enhance Input and Business Logic Validation
+6.Develop Comprehensive Management Features
+7.Integrate Operational Alerts and Sorting
 
 
-             Press Enter to return to main menu...
 
 
 ## Author and Acknowledgement 

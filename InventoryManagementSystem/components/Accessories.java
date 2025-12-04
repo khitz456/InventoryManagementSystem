@@ -1,20 +1,19 @@
-package Component;
+package components;
 
-public class Accessories extends Product {
-    private String type;
+public class Electronics extends Product {
+    private String brand;
 
-    public Accessories() {}
+    public Electronics() {}
 
-    public void setType(String type) { this.type=type;}
+    public void setBrand(String brand) { this.brand = brand; }
 
-    public String getType() {return type;}
+    // GETTER
+    public String getBrand() { return brand; }
 
     @Override
-    public void display(){
-        System.out.print("=== ACCESSORY ITEM ===");
-        System.out.print("Type: " + type);
-        super.display();
+    public void displayInfo() {
+        System.out.println("------ ELECTRONIC ITEM ------");
+        System.out.println("Brand: " + brand);
+        super.displayInfo();
     }
-}    
-
-
+}

@@ -1,0 +1,5 @@
+===ELECTRONICS===
+lcd laptop|dell|3000.0|2
+OPPO A92 |OPPO|6000.0|5
+===ACCESSORIES===
+hdmi cable|cable|150.0|4

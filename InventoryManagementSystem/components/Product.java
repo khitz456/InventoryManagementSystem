@@ -1,4 +1,5 @@
-package Component;
+package components;
+
 public class Product {
     protected String name;
     protected double price;
@@ -7,11 +8,13 @@ public class Product {
 
     public Product() {}
 
+    // SETTERS
     public void setName(String name) { this.name = name; }
     public void setPrice(double price) { this.price = price; }
     public void setQuantity(int quantity) { this.quantity = quantity; }
     public void setCategory(String category) { this.category = category; }
 
+    // GETTERS
     public String getName() { return name; }
     public double getPrice() { return price; }
     public int getQuantity() { return quantity; }
@@ -19,11 +22,7 @@ public class Product {
 
     public void displayInfo() {
         System.out.println("Name: " + name);
-        System.out.println("Price:" + price);
+        System.out.println("Price: " + price);
         System.out.println("Quantity: " + quantity);
     }
 }
-
-
-
-
